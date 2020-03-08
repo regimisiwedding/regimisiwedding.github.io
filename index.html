@@ -670,7 +670,8 @@
 			container: 'map', // container id
 			style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
 			center: [19.738171, 46.503601], // starting position [lng, lat]
-			zoom: 13 // starting zoom
+			zoom: 13, // starting zoom
+			pitch: 60
 		});
 
 		// create a HTML element for each feature
@@ -687,10 +688,13 @@
 		 new mapboxgl.Popup({ closeOnClick: false }, {offset: 25})
 		 		.setLngLat([19.73637948140879, 46.504640835835204])
 				 .setHTML('<h3>Ördögsziget</h3><p>Kiskunmajsa Ötfa u. 4/d.</p>\
-				 <p><a class="external" href="geo:19.73637948140879,46.504640835835204;u=20">Navigáció start</a></p>')
+				 <p><a class="external" href="https://www.google.com/maps/dir//Kiskunmajsa,+%C3%96rd%C3%B6gsziget+Rendezv%C3%A9nyh%C3%A1z,+Unnamed+Road,+6120+Hungary/@46.5039088,19.7336535,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47439a0258181ec9:0xd48a267e497f16fb!2m2!1d19.7358422!2d46.5039088!3e0">Navigáció start</a></p>')
 				 //<a href="geo:37.786971,-122.399677;u=35">open map</a>
 
 				.addTo(map);
+
+		map.addControl(new mapboxgl.NavigationControl());
+
 
 	</script>
 
