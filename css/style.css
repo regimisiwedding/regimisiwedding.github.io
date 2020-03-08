@@ -1398,8 +1398,13 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 @media screen and (max-width: 480px) {
+  #qbootstrap-couple span {
+    letter-spacing: 5px;
+  }
+
   #qbootstrap-press .qbootstrap-press-item .qbootstrap-press-img {
     height: 480px;
+    background-position: center center;
     left: 0;
     top: 0;
     position: relative;
