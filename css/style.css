@@ -861,21 +861,22 @@ h1, h2, h3, h4, h5, h6 {
   background: #fef6f8;
 }
 .timeline > li > .timeline-badge {
-  background-size: cover;
+  background-size: 40%;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
   color: #fff;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   line-height: 50px;
   font-size: 1.4em;
   text-align: center;
   position: absolute;
   top: 0;
   left: 50%;
-  margin-left: -100px;
-  border: 10px solid #fff;
+  margin-left: -75px;
+  border: 5px solid #9b2344;
+  background-color: #fff;
   z-index: 1;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
