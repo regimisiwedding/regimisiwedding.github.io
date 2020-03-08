@@ -17,20 +17,20 @@
 
 
 	// Carousel Feature Slide
-	var testimonialCarousel = function(){
+	// var testimonialCarousel = function(){
 		
-		var owl = $('.owl-carousel-fullwidth');
-		owl.owlCarousel({
-			animateOut: 'fadeOut',
-			items: 1,
-			loop: true,
-			margin: 0,
-			nav: false,
-			dots: true,
-			smartSpeed: 800,
-			autoHeight: false
-		});
-	};
+	// 	var owl = $('.owl-carousel-fullwidth');
+	// 	owl.owlCarousel({
+	// 		animateOut: 'fadeOut',
+	// 		items: 1,
+	// 		loop: true,
+	// 		margin: 0,
+	// 		nav: false,
+	// 		dots: true,
+	// 		smartSpeed: 800,
+	// 		autoHeight: false
+	// 	});
+	// };
 
 	var sliderMain = function() {
 		
@@ -296,7 +296,7 @@
 	$(function(){
 
 		burgerMenu();
-		testimonialCarousel();
+		//testimonialCarousel();
 		sliderMain();
 		clickMenu();
 		parallax();
@@ -304,7 +304,7 @@
 		navigationSection();
 		contentWayPoint();
 		inlineSVG();
-		bgVideo();
+		//bgVideo();
 	});
 
 

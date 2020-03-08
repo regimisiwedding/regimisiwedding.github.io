@@ -1684,4 +1684,26 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 
+#map {
+  height: 400px;
+}
+
+.marker {
+  background-image: url('/svgs/marker-11.svg');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
 /*# sourceMappingURL=style.css.map */
