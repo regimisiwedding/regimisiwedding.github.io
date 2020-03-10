@@ -1012,11 +1012,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2em;
   float: left;
 }
-#qbootstrap-testimonials .box-testimony a {
-  color: rgba(255, 255, 255, 0.5);
-}
 #qbootstrap-testimonials .box-testimony a:hover, #qbootstrap-testimonials .box-testimony a:focus, #qbootstrap-testimonials .box-testimony a:active {
-  color: white;
   text-decoration: none;
 }
 #qbootstrap-testimonials .box-testimony blockquote {
