@@ -313,6 +313,21 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.03);
 }
 
+.qbootstrap-cover, 
+#qbootstrap-countdown,
+#qbootstrap-testimonials {
+  background-position-x: center !important;
+}
+
+/*css lol: easter egg Sanyanak :)*/
+#qbootstrap-testimonials#qbootstrap-testimonials#qbootstrap-testimonials#qbootstrap-testimonials {
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  z-index: 0;
+  width: 100%;
+}
+
 .qbootstrap-cover,
 .qbootstrap-hero {
   position: relative;
